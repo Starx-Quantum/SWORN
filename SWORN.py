@@ -7,7 +7,7 @@ screen.setup(width = 1.0, height = 1.0)
 def curve():
     for i in range(200):
       t.right(1)
-      t.forward(1)
+      t.forward(6)
     
     t.fillcolor("black")
     t.begin_fill()
@@ -47,7 +47,7 @@ def curve():
     t.left(90)
     t.forward(250)
     
-    t.color("yellow")
+    t.color("Brown")
     t.pensize(5)
     
     curve()
