@@ -7,15 +7,15 @@ screen.setup(width = 1.0, height = 1.0)
 def curve():
     for i in range(200):
       t.right(1)
-      t.forward(6)
+      t.forward(8)
     
-    t.fillcolor("black")
+    t.fillcolor("green")
     t.begin_fill()
     t.circle(50)
     t.end_fill()
     
     t.penup()
-    t.setpos(100, 0)
+    t.setpos(1000, 0)
     t.pendown()
     
     t.fillcolor("black")
@@ -43,7 +43,7 @@ def curve():
     t.forward(100)
     t.end_fill()
     
-    t.backward(45)
+    t.backward(55)
     t.left(90)
     t.forward(250)
     
